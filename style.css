@@ -1,6 +1,9 @@
 body
 {
     background-image: url(image/etoile.jpg);
+    width:100%;
+    height:100%;
+    overflow: hidden;
 }
 
 .intro
@@ -11,5 +14,29 @@ body
 
 .text
 {
-    text-align:center;    
+    text-align:center;
+    color: yellow;
+    perspective:450px;
+    font-size:24px;
+    height: 9OOpx;
+
+        
 }
+
+.crawl {
+    position: relative;
+    top: -100px;
+    transform-origin: 50% 100%;
+    animation: crawl 75s linear;
+    text-align: center;
+}
+@keyframes crawl {
+0% {
+top: 500px;
+transform: rotateX(10deg)  translateZ(0);
+}
+100% { 
+top: -6000px;
+transform: rotateX(15deg) translateZ(-250px);
+}
+    
