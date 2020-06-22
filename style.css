@@ -1,0 +1,15 @@
+body
+{
+    background-image: url(image/etoile.jpg);
+}
+
+.intro
+{
+    color: royalblue;
+    font-size: 48px
+}
+
+.text
+{
+    text-align:center;    
+}
